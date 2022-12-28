@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 163, 22);
+    font-family: "Open-sans", Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", Arial, sans-serif;
+    color: rgb(238, 163, 22);
+    font-weight: 500;
+}
+
+.hero {
+    max-width: 900px;
+    width: 80vw;
+    background-color: #FFF;
+    border: 1px solid #ccc;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+p, .alert {
+    font-size: 10px;
+}
+
+.istruzioni {
+    max-width: 300px;
+}
+
+form {
+    max-width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+button {
+    background-color: rgb(238, 163, 22);
+    color: #fff;
+    border: none;
+    padding: 6px;
+}
+
+button:hover {
+    opacity: 0.7;
+}
